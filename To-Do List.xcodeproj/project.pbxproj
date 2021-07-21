@@ -17,6 +17,7 @@
 		A833E6F226A60B71009603F8 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A833E6F126A60B71009603F8 /* ToDo.swift */; };
 		A833E6F426A60F6F009603F8 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A833E6F326A60F6F009603F8 /* AddToDoViewController.swift */; };
 		A833E6F626A61F4A009603F8 /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A833E6F526A61F4A009603F8 /* CompleteToDoViewController.swift */; };
+		C16FD18126A8BCF500EFF36F /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16FD18026A8BCF500EFF36F /* NameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A833E6F126A60B71009603F8 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		A833E6F326A60F6F009603F8 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
 		A833E6F526A61F4A009603F8 /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
+		C16FD18026A8BCF500EFF36F /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				A833E6F526A61F4A009603F8 /* CompleteToDoViewController.swift */,
 				A833E6F326A60F6F009603F8 /* AddToDoViewController.swift */,
 				A833E6F126A60B71009603F8 /* ToDo.swift */,
+				C16FD18026A8BCF500EFF36F /* NameViewController.swift */,
 				A833E6EF26A60B1F009603F8 /* ToDoTableTableViewController.swift */,
 				A833E6E426A60995009603F8 /* Assets.xcassets */,
 				A833E6E626A60995009603F8 /* LaunchScreen.storyboard */,
@@ -152,6 +155,7 @@
 				A833E6D926A60994009603F8 /* AppDelegate.swift in Sources */,
 				A833E6F226A60B71009603F8 /* ToDo.swift in Sources */,
 				A833E6DB26A60994009603F8 /* SceneDelegate.swift in Sources */,
+				C16FD18126A8BCF500EFF36F /* NameViewController.swift in Sources */,
 				A833E6F626A61F4A009603F8 /* CompleteToDoViewController.swift in Sources */,
 				A833E6F026A60B1F009603F8 /* ToDoTableTableViewController.swift in Sources */,
 				A833E6F426A60F6F009603F8 /* AddToDoViewController.swift in Sources */,

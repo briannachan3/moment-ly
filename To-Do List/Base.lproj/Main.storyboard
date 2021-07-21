@@ -95,6 +95,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="onTintColor" red="0.26675149799999998" green="0.42879503969999999" blue="0.30194327240000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </switch>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Untitled_Artwork_3" translatesAutoresizingMaskIntoConstraints="NO" id="1lH-xS-aUR">
+                                <rect key="frame" x="156" y="559" width="103" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Brt-fr-diD"/>
                         <color key="backgroundColor" red="0.91372549020000005" green="0.96470588239999999" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -142,6 +146,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Untitled_Artwork-9" translatesAutoresizingMaskIntoConstraints="NO" id="ic4-pq-Cbp">
+                                <rect key="frame" x="20" y="559" width="134" height="146"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Untitled_Artwork" translatesAutoresizingMaskIntoConstraints="NO" id="chA-ry-UL7">
+                                <rect key="frame" x="295" y="254" width="99" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zug-lD-leZ"/>
                         <color key="backgroundColor" red="0.91372549020000005" green="0.96470588239999999" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -158,7 +170,7 @@
         <!--View Controller-->
         <scene sceneID="HV2-0U-Ug0">
             <objects>
-                <viewController id="0Ru-4F-fGT" sceneMemberID="viewController">
+                <viewController title="View Controller" id="0Ru-4F-fGT" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nBM-lS-9tp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -189,6 +201,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="nameField:" destination="2YT-X3-IMA" eventType="editingDidEnd" id="1Sd-Yj-pAZ"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kes-g2-EQl">
                                 <rect key="frame" x="258" y="558" width="91" height="43"/>
@@ -207,12 +222,17 @@
                                     <segue destination="7OY-Kw-MdR" kind="show" id="hHu-wq-OcN"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="IMG_0863" translatesAutoresizingMaskIntoConstraints="NO" id="CZq-G5-0kQ">
+                                <rect key="frame" x="131" y="229" width="149" height="123"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="TI8-5g-h4u"/>
                         <color key="backgroundColor" red="0.9137254901960784" green="0.96470588235294119" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BG3-se-C6r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="2YT-X3-IMA" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-710.14492753623199" y="79.6875"/>
         </scene>
@@ -302,6 +322,14 @@
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Untitled_Artwork-7" translatesAutoresizingMaskIntoConstraints="NO" id="uZM-fF-R2T">
+                                <rect key="frame" x="190" y="78" width="232" height="164"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Untitled_Artwork-1" translatesAutoresizingMaskIntoConstraints="NO" id="gL1-Vy-mG4">
+                                <rect key="frame" x="20" y="467" width="105" height="109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="RMV-qp-1cs"/>
                         <color key="backgroundColor" red="0.92941176469999998" green="1" blue="0.96181463570000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -319,6 +347,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="IMG_0863" width="638" height="548"/>
+        <image name="Untitled_Artwork" width="638" height="548"/>
+        <image name="Untitled_Artwork-1" width="638" height="548"/>
+        <image name="Untitled_Artwork-7" width="638" height="548"/>
+        <image name="Untitled_Artwork-9" width="638" height="548"/>
+        <image name="Untitled_Artwork_3" width="638" height="548"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
