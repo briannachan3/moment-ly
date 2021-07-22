@@ -142,6 +142,7 @@
                                 </state>
                                 <connections>
                                     <action selector="completeTapped:" destination="hvA-5s-GMX" eventType="touchUpInside" id="2sJ-GV-v1V"/>
+                                    <segue destination="7OY-Kw-MdR" kind="showDetail" id="8LF-Sn-w5j"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name of Task" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wh0-gO-qRu">
@@ -276,20 +277,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aya-h2-2zL">
-                                <rect key="frame" x="54" y="221" width="220" height="37"/>
+                                <rect key="frame" x="54" y="218" width="220" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
                                 <state key="normal" title="Head to Wellness Resources">
                                     <color key="titleColor" red="0.26675149799999998" green="0.42879503969999999" blue="0.30194327240000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="15"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="cM6-AG-Kyw" kind="show" id="uIK-p9-HmR"/>
+                                    <segue destination="cM6-AG-Kyw" kind="show" id="TMd-Rf-tSL"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Untitled_Artwork-7" translatesAutoresizingMaskIntoConstraints="NO" id="uZM-fF-R2T">
@@ -297,46 +293,42 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wellness Reminders" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4To-cq-VBm">
-                                <rect key="frame" x="54" y="266" width="158" height="24"/>
+                                <rect key="frame" x="54" y="282" width="158" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Make sure to drink water &amp; Hydrate 💦 " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RAY-fz-gGt">
-                                <rect key="frame" x="54" y="298" width="299" height="25"/>
+                                <rect key="frame" x="54" y="324" width="299" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Get at least 8 hours of sleep every day to function 💤" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yrR-7w-3u8">
-                                <rect key="frame" x="54" y="331" width="289" height="59"/>
+                                <rect key="frame" x="54" y="357" width="289" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="It's important to take Breaks every once in awhile ⏰" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Zv-gd-b2F">
-                                <rect key="frame" x="54" y="398" width="289" height="47"/>
+                                <rect key="frame" x="54" y="424" width="289" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stay Active &amp; Spend some time Outside 🏃🏽‍♀️" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mxg-uI-PEa">
-                                <rect key="frame" x="54" y="452" width="289" height="54"/>
+                                <rect key="frame" x="54" y="479" width="289" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Untitled_Artwork-1" translatesAutoresizingMaskIntoConstraints="NO" id="gL1-Vy-mG4">
-                                <rect key="frame" x="20" y="532" width="105" height="109"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y1R-JT-rty">
-                                <rect key="frame" x="54" y="188" width="117" height="37"/>
+                                <rect key="frame" x="54" y="173" width="117" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
@@ -352,6 +344,10 @@
                                     <segue destination="fnq-jj-kR4" kind="show" id="aKn-Lt-s3R"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Untitled_Artwork-1" translatesAutoresizingMaskIntoConstraints="NO" id="gL1-Vy-mG4">
+                                <rect key="frame" x="20" y="541" width="105" height="109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="RMV-qp-1cs"/>
                         <color key="backgroundColor" red="0.92941176469999998" green="1" blue="0.96181463570000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -367,10 +363,10 @@
             </objects>
             <point key="canvasLocation" x="-271.01449275362319" y="756.69642857142856"/>
         </scene>
-        <!--Wellness Resources-->
+        <!--Wellness Controller-->
         <scene sceneID="AqW-JA-BUa">
             <objects>
-                <viewController id="cM6-AG-Kyw" customClass="UIWellnessResources" sceneMemberID="viewController">
+                <viewController title="Wellness Controller" id="cM6-AG-Kyw" customClass="WellnessResourcesViewController" customModule="To_Do_List" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L1P-ft-r2h">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -392,6 +388,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" bouncesZoom="NO" editable="NO" text="Check out Psych2Go's Youtube Channel" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vdY-OY-2De">
                                 <rect key="frame" x="56" y="173" width="322" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.26675149799999998" green="0.42879503969999999" blue="0.30194327240000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="textColor" red="0.26675149799999998" green="0.42879503969999999" blue="0.30194327240000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -407,6 +404,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" bouncesZoom="NO" editable="NO" text="Read about the Gender Gap and ADHD" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OJp-ag-2k4">
                                 <rect key="frame" x="56" y="276" width="299" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.26675149799999998" green="0.42879503969999999" blue="0.30194327240000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="textColor" red="0.26675149799999998" green="0.42879503969999999" blue="0.30194327240000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -426,13 +424,41 @@
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gqF-oj-xbw">
+                                <rect key="frame" x="0.0" y="594" width="414" height="193"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="15"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CR5-9e-hHN">
+                                <rect key="frame" x="0.0" y="549" width="414" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
+                                <state key="normal" title="Click to Generate Quote">
+                                    <color key="titleColor" red="0.26675149799999998" green="0.42879503969999999" blue="0.30194327240000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="generateQuote:" destination="cM6-AG-Kyw" eventType="touchUpInside" id="87P-he-jDt"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Untitled_Artwork13" translatesAutoresizingMaskIntoConstraints="NO" id="CkR-B0-zcl">
+                                <rect key="frame" x="245" y="20" width="130" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Untitled_Artwork_4" translatesAutoresizingMaskIntoConstraints="NO" id="SkQ-Te-n09">
+                                <rect key="frame" x="245" y="378" width="81" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="TJr-mS-TSo"/>
                         <color key="backgroundColor" red="0.92941176469999998" green="1" blue="0.96181463570000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="BgB-Ly-xKJ"/>
                     <connections>
-                        <outlet property="adhdLink" destination="OJp-ag-2k4" id="wGv-Qg-L2Z"/>
+                        <outlet property="adhdLink" destination="OJp-ag-2k4" id="0q4-CE-WXR"/>
+                        <outlet property="generatedQuote" destination="gqF-oj-xbw" id="Ied-21-uuy"/>
                         <outlet property="psychLink" destination="vdY-OY-2De" id="UHR-9E-L27"/>
                     </connections>
                 </viewController>
@@ -442,15 +468,19 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="hHu-wq-OcN"/>
+        <segue reference="aKn-Lt-s3R"/>
+        <segue reference="8LF-Sn-w5j"/>
     </inferredMetricsTieBreakers>
+    <color key="tintColor" red="0.26675149799999998" green="0.42879503969999999" blue="0.30194327240000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
     <resources>
         <image name="IMG_0863" width="638" height="548"/>
         <image name="Untitled_Artwork" width="638" height="548"/>
         <image name="Untitled_Artwork-1" width="638" height="548"/>
         <image name="Untitled_Artwork-7" width="638" height="548"/>
         <image name="Untitled_Artwork-9" width="638" height="548"/>
+        <image name="Untitled_Artwork13" width="638" height="548"/>
         <image name="Untitled_Artwork_3" width="638" height="548"/>
+        <image name="Untitled_Artwork_4" width="638" height="548"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
