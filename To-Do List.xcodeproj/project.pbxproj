@@ -20,6 +20,7 @@
 		C16FD18126A8BCF500EFF36F /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16FD18026A8BCF500EFF36F /* NameViewController.swift */; };
 		C16FD18326A91BFF00EFF36F /* WellnessResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16FD18226A91BFF00EFF36F /* WellnessResourcesViewController.swift */; };
 		C16FD18526A91EC100EFF36F /* NSAttributedStringExtention .swift in Sources */ = {isa = PBXBuildFile; fileRef = C16FD18426A91EC100EFF36F /* NSAttributedStringExtention .swift */; };
+		C1CE9D5F26A9C69C0096E2CC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CE9D5E26A9C69C0096E2CC /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		C16FD18026A8BCF500EFF36F /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
 		C16FD18226A91BFF00EFF36F /* WellnessResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellnessResourcesViewController.swift; sourceTree = "<group>"; };
 		C16FD18426A91EC100EFF36F /* NSAttributedStringExtention .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedStringExtention .swift"; sourceTree = "<group>"; };
+		C1CE9D5E26A9C69C0096E2CC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				A833E6D826A60994009603F8 /* AppDelegate.swift */,
 				A833E6DA26A60994009603F8 /* SceneDelegate.swift */,
 				A833E6DE26A60994009603F8 /* Main.storyboard */,
+				C1CE9D5E26A9C69C0096E2CC /* HomeViewController.swift */,
 				C16FD18226A91BFF00EFF36F /* WellnessResourcesViewController.swift */,
 				C16FD18426A91EC100EFF36F /* NSAttributedStringExtention .swift */,
 				A833E6F526A61F4A009603F8 /* CompleteToDoViewController.swift */,
@@ -165,6 +168,7 @@
 				C16FD18126A8BCF500EFF36F /* NameViewController.swift in Sources */,
 				C16FD18526A91EC100EFF36F /* NSAttributedStringExtention .swift in Sources */,
 				A833E6F626A61F4A009603F8 /* CompleteToDoViewController.swift in Sources */,
+				C1CE9D5F26A9C69C0096E2CC /* HomeViewController.swift in Sources */,
 				A833E6F026A60B1F009603F8 /* ToDoTableTableViewController.swift in Sources */,
 				A833E6F426A60F6F009603F8 /* AddToDoViewController.swift in Sources */,
 				A833E6E326A60994009603F8 /* To_Do_List.xcdatamodeld in Sources */,

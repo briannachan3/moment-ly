@@ -1,26 +1,22 @@
 //
-//  NameViewController.swift
+//  HomeViewController.swift
 //  To-Do List
 //
-//  Created by Zoya Hussain on 7/21/21.
+//  Created by Zoya Hussain on 7/22/21.
 //
 
 import UIKit
 
-class NameViewController: UIViewController {
+class HomeViewController: UIViewController {
+    var fullName : String?
+    @IBOutlet weak var helloName: UILabel!
+    
 
-    @IBOutlet weak var nameField: UITextField!
-    
-    @IBAction func submitButton(_ sender: UIButton) {
-    }
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let destinationVC = segue.destination as! HomeViewController
-        destinationVC.fullName = nameField.text
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        if let newName = fullName {
+            helloName.text = "Hello \(newName)" ?? "Hello!"
+        }
         // Do any additional setup after loading the view.
     }
     
