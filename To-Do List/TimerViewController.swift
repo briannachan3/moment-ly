@@ -11,12 +11,13 @@ class TimerViewController: UIViewController {
 
     @IBOutlet weak var label: UILabel!
     
-    var time = 0
+    var time = 1500
     var timer = Timer()
     
     @IBAction func start(_ sender: UIButton) {
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(TimerViewController.action), userInfo: nil, repeats: true)
     }
+    
     
     @IBAction func pause(_ sender: Any) {
         timer.invalidate()
@@ -29,8 +30,8 @@ class TimerViewController: UIViewController {
     }
     
     @objc func action() {
-        time += 1
-        label.text = String(time)
+        time -= 1
+        label.text = "\(time / 60):\(time % 60 )"
     }
  
     override func viewDidLoad() {
