@@ -11,12 +11,13 @@
 		A833E6DB26A60994009603F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A833E6DA26A60994009603F8 /* SceneDelegate.swift */; };
 		A833E6E026A60994009603F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A833E6DE26A60994009603F8 /* Main.storyboard */; };
 		A833E6E326A60994009603F8 /* To_Do_List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A833E6E126A60994009603F8 /* To_Do_List.xcdatamodeld */; };
-		A833E6E526A60995009603F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A833E6E426A60995009603F8 /* Assets.xcassets */; };
 		A833E6E826A60995009603F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A833E6E626A60995009603F8 /* LaunchScreen.storyboard */; };
 		A833E6F026A60B1F009603F8 /* ToDoTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A833E6EF26A60B1F009603F8 /* ToDoTableTableViewController.swift */; };
 		A833E6F226A60B71009603F8 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A833E6F126A60B71009603F8 /* ToDo.swift */; };
 		A833E6F426A60F6F009603F8 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A833E6F326A60F6F009603F8 /* AddToDoViewController.swift */; };
 		A833E6F626A61F4A009603F8 /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A833E6F526A61F4A009603F8 /* CompleteToDoViewController.swift */; };
+		A8E705DD26A9F7E6006A59B9 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E705DC26A9F7E6006A59B9 /* TimerViewController.swift */; };
+		A8E705DF26AA0780006A59B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A833E6E426A60995009603F8 /* Assets.xcassets */; };
 		C16FD18126A8BCF500EFF36F /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16FD18026A8BCF500EFF36F /* NameViewController.swift */; };
 		C16FD18326A91BFF00EFF36F /* WellnessResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16FD18226A91BFF00EFF36F /* WellnessResourcesViewController.swift */; };
 		C16FD18526A91EC100EFF36F /* NSAttributedStringExtention .swift in Sources */ = {isa = PBXBuildFile; fileRef = C16FD18426A91EC100EFF36F /* NSAttributedStringExtention .swift */; };
@@ -36,6 +37,8 @@
 		A833E6F126A60B71009603F8 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		A833E6F326A60F6F009603F8 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
 		A833E6F526A61F4A009603F8 /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
+		A8E705DA26A9F793006A59B9 /* To-Do List */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "To-Do List"; sourceTree = "<group>"; };
+		A8E705DC26A9F7E6006A59B9 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		C16FD18026A8BCF500EFF36F /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
 		C16FD18226A91BFF00EFF36F /* WellnessResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellnessResourcesViewController.swift; sourceTree = "<group>"; };
 		C16FD18426A91EC100EFF36F /* NSAttributedStringExtention .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedStringExtention .swift"; sourceTree = "<group>"; };
@@ -74,7 +77,9 @@
 			children = (
 				A833E6D826A60994009603F8 /* AppDelegate.swift */,
 				A833E6DA26A60994009603F8 /* SceneDelegate.swift */,
+				A8E705DA26A9F793006A59B9 /* To-Do List */,
 				A833E6DE26A60994009603F8 /* Main.storyboard */,
+				A8E705DC26A9F7E6006A59B9 /* TimerViewController.swift */,
 				C1CE9D5E26A9C69C0096E2CC /* HomeViewController.swift */,
 				C16FD18226A91BFF00EFF36F /* WellnessResourcesViewController.swift */,
 				C16FD18426A91EC100EFF36F /* NSAttributedStringExtention .swift */,
@@ -148,8 +153,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8E705DF26AA0780006A59B9 /* Assets.xcassets in Resources */,
 				A833E6E826A60995009603F8 /* LaunchScreen.storyboard in Resources */,
-				A833E6E526A60995009603F8 /* Assets.xcassets in Resources */,
 				A833E6E026A60994009603F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,6 +170,7 @@
 				A833E6F226A60B71009603F8 /* ToDo.swift in Sources */,
 				C16FD18326A91BFF00EFF36F /* WellnessResourcesViewController.swift in Sources */,
 				A833E6DB26A60994009603F8 /* SceneDelegate.swift in Sources */,
+				A8E705DD26A9F7E6006A59B9 /* TimerViewController.swift in Sources */,
 				C16FD18126A8BCF500EFF36F /* NameViewController.swift in Sources */,
 				C16FD18526A91EC100EFF36F /* NSAttributedStringExtention .swift in Sources */,
 				A833E6F626A61F4A009603F8 /* CompleteToDoViewController.swift in Sources */,
