@@ -102,7 +102,7 @@
                                 <color key="onTintColor" red="0.26675149799999998" green="0.42879503969999999" blue="0.30194327240000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </switch>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Untitled_Artwork_3" translatesAutoresizingMaskIntoConstraints="NO" id="1lH-xS-aUR">
-                                <rect key="frame" x="156" y="559" width="103" height="115"/>
+                                <rect key="frame" x="136" y="559" width="142" height="158"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -153,12 +153,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Untitled_Artwork" translatesAutoresizingMaskIntoConstraints="NO" id="chA-ry-UL7">
-                                <rect key="frame" x="295" y="254" width="99" height="92"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Untitled_Artwork-9" translatesAutoresizingMaskIntoConstraints="NO" id="ic4-pq-Cbp">
+                                <rect key="frame" x="30" y="559" width="177" height="202"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Untitled_Artwork-9" translatesAutoresizingMaskIntoConstraints="NO" id="ic4-pq-Cbp">
-                                <rect key="frame" x="20" y="559" width="134" height="146"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Untitled_Artwork" translatesAutoresizingMaskIntoConstraints="NO" id="chA-ry-UL7">
+                                <rect key="frame" x="215" y="198" width="143" height="165"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -172,7 +172,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n7c-US-NZ5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1551" y="757"/>
+            <point key="canvasLocation" x="1550.7246376811595" y="756.69642857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="HV2-0U-Ug0">
@@ -284,10 +284,6 @@
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Untitled_Artwork_5" translatesAutoresizingMaskIntoConstraints="NO" id="EFd-2q-NfY">
-                                <rect key="frame" x="156" y="97" width="105" height="111"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Elapsed Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VhZ-hr-aDw">
                                 <rect key="frame" x="105" y="352" width="204" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -346,6 +342,10 @@
                                     <action selector="reset:" destination="GmB-9v-6nG" eventType="touchUpInside" id="Wmx-fY-Sh5"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Untitled_Artwork_5" translatesAutoresizingMaskIntoConstraints="NO" id="EFd-2q-NfY">
+                                <rect key="frame" x="145" y="95" width="125" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="W93-EI-6G8"/>
                         <color key="backgroundColor" red="0.91372549020000005" green="0.96470588239999999" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -367,7 +367,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DwK-qZ-0LM">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello Omafia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DwK-qZ-0LM">
                                 <rect key="frame" x="58" y="115" width="204" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
@@ -426,7 +426,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Untitled_Artwork-7" translatesAutoresizingMaskIntoConstraints="NO" id="uZM-fF-R2T">
-                                <rect key="frame" x="250" y="63" width="232" height="164"/>
+                                <rect key="frame" x="242" y="63" width="240" height="188"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How do you feel today?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUB-Ij-rgF">
@@ -544,7 +544,7 @@
                                 <color key="highlightedColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Untitled_Artwork-1" translatesAutoresizingMaskIntoConstraints="NO" id="M69-Hm-yg0">
-                                <rect key="frame" x="284" y="648" width="115" height="160"/>
+                                <rect key="frame" x="242" y="623" width="157" height="185"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vZI-vk-yXa">
@@ -648,11 +648,11 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Untitled_Artwork_4" translatesAutoresizingMaskIntoConstraints="NO" id="SkQ-Te-n09">
-                                <rect key="frame" x="245" y="399" width="81" height="87"/>
+                                <rect key="frame" x="245" y="399" width="95" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Untitled_Artwork13" translatesAutoresizingMaskIntoConstraints="NO" id="CkR-B0-zcl">
-                                <rect key="frame" x="245" y="64" width="130" height="145"/>
+                                <rect key="frame" x="231" y="50" width="144" height="159"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gqF-oj-xbw">
@@ -679,7 +679,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="hHu-wq-OcN"/>
+        <segue reference="aKn-Lt-s3R"/>
+        <segue reference="8LF-Sn-w5j"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.26675149799999998" green="0.42879503969999999" blue="0.30194327240000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
     <resources>
